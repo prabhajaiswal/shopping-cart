@@ -1,0 +1,25 @@
+.resource-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Allow resources to wrap onto new lines */
+}
+
+.resource {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+}
+
+.resource img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Adjust as needed */
+@media (max-width: 768px) {
+  .resource-container {
+    justify-content: center;
+  }
+}
